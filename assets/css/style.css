@@ -13,7 +13,7 @@
     height: 100%;
     float: left;
     font-size: 2em;
-    padding: 15px 10px 0px 10px;
+    padding: 15px 30px 0px 30px;
     /* border: 1px solid red; */
 }
 
@@ -21,7 +21,7 @@ h2 {
     clear:both;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
     padding-bottom: 20px;
     font-size: 2em;
 }
@@ -71,6 +71,7 @@ body{
     background-color: #cccccc;
     background-position: center;
     border: 1px solid #dddddd;
+    border-top: 2px solid #dddddd;
     padding-top: 30px;
     padding-bottom: 30px;
     min-height: 100%;
@@ -132,7 +133,7 @@ body{
 #main-bio,
 #contact,
 #portfolio{
-    /* border:  2px solid blue; */
+    border:  1px solid #dddddd;
     clear:both;
     padding: 20px;
     background-color: white;
@@ -251,7 +252,7 @@ html {
         clear:both;
         text-align: center;
         margin: auto;
-        border-bottom: 1px solid #777777;
+        /* border-bottom: 1px solid #777777; */
         
     }
 
@@ -264,7 +265,6 @@ html {
 
     #navbar {
         float: right;
-        padding-top:10px;
         /* border: 1px solid red; */
     }
 
@@ -277,7 +277,7 @@ html {
 
 }
 
-@media only screen and (max-width: 510px) {
+@media only screen and (max-width: 640px) {
     /* body {
         background-color:red;
     } */
