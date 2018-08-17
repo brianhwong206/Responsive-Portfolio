@@ -103,9 +103,8 @@ body{
 /* About Page*/
 #bio-image{
     float:left;
-    padding-right: 10px; 
-    width: 410px;
-    height: 410px; 
+    margin:10px;
+    padding: 10px;  
 }
 
 .container-about-me-pictures{
@@ -274,8 +273,8 @@ html {
     #bio-image{
         float:left;
         padding-right: 10px; 
-        min-width: 410px;
-        min-height: 410px; 
+        /* min-width: 410px;
+        min-height: 410px;  */
     }
 
 }
@@ -317,11 +316,10 @@ html {
     }
 
     #bio-image{
-        float:both;
+        text-align: center;
         padding: 5px;
-        margin:5px; 
-        width: 100%;
-        height: 100%; 
+        width:100%;
+        height: auto; 
     }
 
     .container-about-me-pictures{
